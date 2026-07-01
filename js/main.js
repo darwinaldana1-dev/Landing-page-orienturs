@@ -16,8 +16,7 @@ const planes = {
     ],
     precios:[["Acomodación múltiple","$1.020.000"],["Acomodación doble","$1.160.000"]],
     nota:"Opcional: segundo avistamiento de ballenas por $100.000. Salida viernes ~5:00 p.m. desde Medellín y Oriente.",
-    ws:"Hola Orientours, quiero información del plan Avistamiento de Ballenas en Bahía Málaga 🐋",
-    pdf:"pdf/Ballenas Bahia Malaga Pacifico colombiano 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Avistamiento de Ballenas en Bahía Málaga 🐋"
   },
   capurgana:{
     titulo:"Capurganá + Sapzurro + La Miel 🌴",
@@ -34,8 +33,7 @@ const planes = {
     ],
     precios:[["Acomodación múltiple","$875.000"],["Acomodación doble","$975.000"]],
     nota:"No incluye tasas portuarias (~$30.000 en efectivo). Tour opcional a Playa Soledad + Bahía Aguacate: $70.000. Lleva ropa blanca para la fiesta de la primera noche.",
-    ws:"Hola Orientours, quiero información del plan Capurganá + Sapzurro + La Miel, Panamá 🌴",
-    pdf:"pdf/Capurganá 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Capurganá + Sapzurro + La Miel, Panamá 🌴"
   },
   islafuerte:{
     titulo:"Isla Fuerte 🏝️",
@@ -53,8 +51,7 @@ const planes = {
     ],
     precios:[["Acomodación múltiple","$735.000"],["Acomodación doble (+10%)","$808.500"]],
     nota:"No incluye: ingreso a la isla ($10.000 en efectivo) ni alimentación en carretera. Lleva gafas de snorkel, ¡súper recomendado!",
-    ws:"Hola Orientours, quiero información del plan Isla Fuerte 🏝️",
-    pdf:"pdf/Isla Fuerte 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Isla Fuerte 🏝️"
   },
   murillo:{
     titulo:"Murillo y Nevado del Ruiz 🏔️",
@@ -72,8 +69,7 @@ const planes = {
     ],
     precios:[["Habitación múltiple","$500.000"],["Cuádruple","$520.000"],["Doble","$540.000"]],
     nota:"Edad permitida: 7 a 69 años. Destino de alta montaña (+4.000 msnm): lleva muy buen abrigo, capa de lluvia y bloqueador. No recomendado para personas con afecciones respiratorias o cardíacas, ni embarazadas.",
-    ws:"Hola Orientours, quiero información del plan Murillo y Nevado del Ruiz 🏔️",
-    pdf:"pdf/Murillo 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Murillo y Nevado del Ruiz 🏔️"
   },
   norcasia:{
     titulo:"Norcasia y Río La Miel 🛶",
@@ -91,8 +87,7 @@ const planes = {
     ],
     precios:[["Acomodación múltiple","$420.000"],["Doble (pareja)","$462.000"],["Individual","$485.000"]],
     nota:"Tour opcional en el embalse: $60.000. Reserva desde $150.000. Importante: lleva tenis cerrados que se puedan mojar para el río (no crocs ni sandalias). Nivel de aventura 2/5.",
-    ws:"Hola Orientours, quiero información del plan Norcasia y Río La Miel 🛶",
-    pdf:"pdf/Norcasia 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Norcasia y Río La Miel 🛶"
   },
   mutata:{
     titulo:"Mutatá Mágico 💦",
@@ -110,8 +105,7 @@ const planes = {
     ],
     precios:[["Acomodación múltiple","$280.000"],["Acomodación doble","$308.000"],["Individual","$322.000"]],
     nota:"Tour de tubing opcional: $60.000. Reserva con $100.000. En festivos aplica un pequeño incremento. Niños desde los 0 años son bienvenidos.",
-    ws:"Hola Orientours, quiero información del plan Mutatá Mágico 💦",
-    pdf:"pdf/Mutatá 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Mutatá Mágico 💦"
   },
   makai:{
     titulo:"Solos y Solas · Makai 🎉",
@@ -129,8 +123,7 @@ const planes = {
     ],
     precios:[["Habitación óctuple (hostal)","$730.000"],["Quíntuple (baño privado)","$780.000"],["Doble con ventilador","$860.000"],["Doble con aire","$885.000"],["VIP doble (piscina privada y vista al mar)","$975.000"]],
     nota:"Evento para solteros y solteras de 20 a 45 años. Reserva con $200.000 y paga en abonos mensuales (pago total 10 días antes). Lleva outfit blanco para la fiesta. ¡Cupos limitados!",
-    ws:"Hola Orientours, quiero información del plan Solos y Solas en Necoclí 🎉",
-    pdf:"pdf/Solos y solas makai 2026.pdf"
+    ws:"Hola Orientours, quiero información del plan Solos y Solas en Necoclí 🎉"
   },
   sancarlos:{
     titulo:"San Carlos: Tranqui o Xtremo 🌿⚡",
@@ -145,8 +138,7 @@ const planes = {
     ],
     precios:[["San Carlos Tranqui – Cascada La Viejita (caminata suave)","$145.000"],["San Carlos Xtremo – El Chispero (canyoning + neopreno + equipo)","$260.000"]],
     nota:"Salida 5:00 a.m., regreso ~4:30 p.m. Zapatos cerrados obligatorios que se puedan mojar (no crocs ni sandalias). Para Xtremo: incluye equipo de seguridad y traje neopreno. Cupos limitados.",
-    ws:"Hola Orientours, quiero información del plan San Carlos (Tranqui o Xtremo) 🌿⚡",
-    pdf:"pdf/🌿⚡ SAN CARLOS- TRANQUI O XTREMO 💦.pdf"
+    ws:"Hola Orientours, quiero información del plan San Carlos (Tranqui o Xtremo) 🌿⚡"
   },
   melcocho:{
     titulo:"Reserva Natural · Río Melcocho 🍃",
@@ -162,8 +154,7 @@ const planes = {
     ],
     precios:[["Melcocho Normal – recorrido turístico 6 km, nivel 2.5","$135.000"],["Melcocho Xtremo – toboganes + body rafting + canopy + cascada","$195.000"]],
     nota:"Separar cupo con $60.000. Plan pago mínimo 3 días antes. Tennis cerrados obligatorios que se puedan mojar. Para Xtremo: no llevar objetos de valor durante la actividad.",
-    ws:"Hola Orientours, quiero información del plan Reserva Natural Río Melcocho 🍃",
-    pdf:"pdf/🍃 RESERVA NATURAL, RÍO MELCOCHO.pdf"
+    ws:"Hola Orientours, quiero información del plan Reserva Natural Río Melcocho 🍃"
   },
   rioclaro:{
     titulo:"Rafting en Río Claro 🏞️💦",
@@ -180,8 +171,7 @@ const planes = {
     ],
     precios:[["Excursión completa (rafting + cuevas + Santorini)","$220.000"]],
     nota:"Reserva con solo $50.000 por persona. Salida 5:00 a.m., regreso ~4:30 p.m. Lleva linterna para las cuevas. Zapatos cerrados aptos para mojar (no crocs ni sandalias). Cupos limitados.",
-    ws:"Hola Orientours, quiero información del plan Rafting en Río Claro 🏞️💦",
-    pdf:"pdf/🏞️💦 ¡RAFTING EN RÍO CLARO.pdf"
+    ws:"Hola Orientours, quiero información del plan Rafting en Río Claro 🏞️💦"
   },
   taparto:{
     titulo:"Chorros de Tapartó 🌄",
@@ -198,8 +188,7 @@ const planes = {
     ],
     precios:[["Solo caminata – 12 km ida y regreso","$130.000"],["Caminata + Canopy (340 metros)","$200.000"],["Circuito Xtremo completo (solo 19 cupos por fecha)","$250.000"]],
     nota:"Salida desde El Carmen de Viboral 4:00 a.m. / Terminal del Norte Medellín ~5:10 a.m. Zapatos de caminata obligatorios (no crocs ni sandalias). Para el Circuito Xtremo: lleva celular protegido contra el agua.",
-    ws:"Hola Orientours, quiero información del plan Chorros de Tapartó 🌄",
-    pdf:"pdf/¡Vive Chorros de Tapartó con Orientours.pdf"
+    ws:"Hola Orientours, quiero información del plan Chorros de Tapartó 🌄"
   }
 };
 

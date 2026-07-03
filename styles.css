@@ -289,16 +289,68 @@
   .paso p{font-size:.9rem;color:var(--gris)}
 
   /* ===== TESTIMONIOS ===== */
-  .grid-testimonios{
-    display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:26px;max-width:1180px;margin:0 auto;
+  .slider-testimonios {
+    overflow: hidden;
+    width: 100vw;
+    margin: 0 calc(50% - 50vw);
+    padding: 24px 0;
+    position: relative;
   }
-  .testimonio{
-    background:#fff;border:1.5px solid #edf1f5;border-radius:var(--radio);
-    padding:30px 28px;display:flex;flex-direction:column;gap:14px;
-    transition:.3s;
+  .slider-testimonios::before,
+  .slider-testimonios::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    z-index: 5;
+    pointer-events: none;
   }
-  .testimonio:hover{box-shadow:var(--sombra);transform:translateY(-5px)}
+  .slider-testimonios::before {
+    left: 0;
+    background: linear-gradient(to right, #ffffff 15%, rgba(255, 255, 255, 0));
+  }
+  .slider-testimonios::after {
+    right: 0;
+    background: linear-gradient(to left, #ffffff 15%, rgba(255, 255, 255, 0));
+  }
+
+  .track-testimonios {
+    display: flex;
+    gap: 26px;
+    width: max-content;
+    animation: scrollHorizontal 38s linear infinite;
+    padding-left: 26px;
+  }
+  .slider-testimonios:hover .track-testimonios {
+    animation-play-state: paused;
+  }
+
+  .testimonio {
+    width: 360px;
+    flex-shrink: 0;
+    background: #fff;
+    border: 1.5px solid #edf1f5;
+    border-radius: var(--radio);
+    padding: 30px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: transform .3s, box-shadow .3s;
+  }
+  .testimonio:hover {
+    box-shadow: var(--sombra);
+    transform: translateY(-5px);
+  }
+
+  @keyframes scrollHorizontal {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
   .estrellas{color:var(--amarillo);font-size:1.05rem;letter-spacing:2px}
   .testimonio p{color:var(--texto);font-size:.95rem;flex:1}
   .testimonio .autor{display:flex;align-items:center;gap:12px}
